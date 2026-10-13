@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: wheat;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(193, 7, 44);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 90px;
+    
+}
+
+main {
+    margin: 70px;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+}
+
+h2 {
+    color: rgb(193, 7, 44);
+}
+
+p {
+    line-height: 1.5;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+hr {
+    border: 1px solid gray;
+}
+
+nav a:hover {
+    color: rgb(193, 7, 44);
+}
+
+.foodplaces {
+    text-align: center;
+    margin: 20px;
+}
+
+.Food {
+    list-style-type: none;
+    padding: 0;
+}
+
+.places {
+    font-size: 24px;
+    color: rgb(193, 7, 44);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 80px;
+    border: 2px solid black;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+aside {
+    flex: 1;
+    background-color: white;
+    padding: 15px;
+    font-size: 24px
+}
+
+.fortable {
+    background-color: white;
+    padding: 20px;
+}
+
+.rotatete {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.rotate {
+    display: inline-block;
+    animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.main1 {
+    
+    margin-top: 200px;
+}
